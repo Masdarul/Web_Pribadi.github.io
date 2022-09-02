@@ -1,0 +1,59 @@
+body {
+    font-family: 'Quicksand' ,sans-serif;
+    margin: 0;
+    padding: 0;
+} /* bagia body */
+.red {
+    background-color: red;
+}
+* {
+    box-sizing: border-box;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    background-color: skyblue;
+}
+.mini {
+    font-size: 11px;
+}
+.awal {
+    font-size: 20px;
+    padding: 60px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+p {
+    font-size: 13px;
+}
+nav {
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+nav a {
+    font-size: 15px;
+    font-weight: 300px;
+    text-decoration: none;
+    color: black;
+}
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+} /* bagain bawa/hak cipta */
+aside {
+    float: right;
+    width: 20%;
+}
+

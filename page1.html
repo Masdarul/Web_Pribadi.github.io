@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="Portofolio/File/style1.css"> <!-- memasukan file css -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <!-- Input jQuerj  -->
+    <link rel="icon" type="icon/img" href="web.png"> <!-- tampilkan icon di web -->
+</head>
+<body>
+    <header>
+        <nav class="first">
+            <input type="button" class="btn-back" value="&#11013;" onclick="back(-1)">
+            <h1>Portofolio</h1>
+            <p>Portofolio by: Masdarul Rizqi</p>
+        </nav>
+    </header>
+    <div class="content"> <!-- Bagian Konten Pertama -->
+        <h3>1.Kalkulator</h3>
+        <img src="Portofolio/img/web calculator.png" usemap="#kalkulator">
+        <p>kalkulator adalah alat untuk menghitung dari perhitungan sederhana seperti penjumlahan, pengurangan, perkalian dan pembagian sampai kepada kalkulator sains yang dapat menghitung rumus matematika tertentu.</p>
+        <video height="250" width="320"  autoplay muted>
+            <source src="Portofolio/video/Kalkulator.mp4">
+        </video>
+        <map name="kalkulator">
+            <area shape="rect" coords="34,44,270,350" title="kalkulator" href="Portofolio/Kalkulator/kalkulator.html">
+        </map>  
+    </div>
+    <div class="content"> <!-- Bagian Konten Kedua -->
+        <h3>2.Artikel Bandung</h3>
+        <img src="Portofolio/img/bandung.png"  usemap="#bandung">
+        <p>Artikel adalah suatu karya tulis dengan panjang tertentu yang berisi gagasan atau fakta yang dapat membujuk, meyakinkan, mendidik, dan menghibur pembacanya, serta dipublikasikan ke suatu media (buletin, majalah, koran, website, media sosial, dan lainnya).</p>
+        <video height="250" width="320" autoplay muted>
+            <source src="Portofolio/video/bandung.mp4">
+        </video>
+        <map name="bandung">
+            <area shape="rect" coords="34,44,270,350" title="bandung" href="Portofolio/WEB/index.html">
+        </map>
+    </div>
+    <div class="content"> <!-- Bagian Konten Ketiga -->
+        <h3>3.Artikel Yogyakarta</h3>
+        <img src="Portofolio/img/yogya.png" usemap="#jogja">
+        <p>Artikel adalah suatu karya tulis dengan panjang tertentu yang berisi gagasan atau fakta yang dapat membujuk, meyakinkan, mendidik, dan menghibur pembacanya, serta dipublikasikan ke suatu media (buletin, majalah, koran, website, media sosial, dan lainnya).</p>
+        <video height="250" width="320" autoplay muted>
+            <source src="Portofolio/video/yogya.mp4">
+        </video>
+        <map name="jogja">
+            <area shape="rect" coords="34,44,270,350" title="yogya" href="Portofolio/Projeck/index.html" id="clik3">
+        </map>
+    </div>
+    <div class="last">
+        <ul class="pagination"> <!-- Page 1,2 dan page sebelum & selanjutnya -->
+            <li><a href="page1.html" onclick="prev()" class="prev">Prev</a></li>
+            <li class="pageNumber active"><a href="page1.html">1</a></li>
+            <li class="pageNumber"><a href="page2.html">2</a></li>
+            <li><a href="page2.html" class="next">Next</a></li>
+        </ul>
+    </div>
+    <footer><p>Copyright &copy; By Masdarul Rizqi</p></footer> <!-- Bagian Bawa atau Bagian Hak Cipta -->
+    <script src="Portofolio/File/script1.js"></script>  <!-- memasukan file JavaScript -->
+    <script src="Portofolio/File/jquerj1.js"></script> <!-- memasukan file jQuerj -->
+</body>
+</html>

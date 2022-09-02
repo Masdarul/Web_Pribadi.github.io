@@ -1,0 +1,83 @@
+body {
+    font-family: 'Quicksand' ,sans-serif;
+    margin: 0;
+    padding: 0;
+} /* bagian body */
+* {
+    box-sizing: border-box;
+}
+h2, h3 {
+    color: #00a2c6;
+} /* bagian judul 2 dan 3 */
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+} /* bagian bawah / hak cipta */
+nav a:hover {
+    font-weight: bold;
+}
+.profile header {
+    text-align: center;
+}
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.profile img {
+    width: 200px;
+} /* bagian gambar/foto yang kela profil */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+
+}
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+  }
+header {
+    display: inline;
+ }
+content {
+    float: left;
+    width: 75%;
+} /* bagian konten */
+.new {
+ background-color: #00c8eb;
+}

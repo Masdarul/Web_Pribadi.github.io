@@ -1,0 +1,91 @@
+body {
+    background-color: lightgray;
+}
+header { /* bagian atas */
+    background-color: skyblue;
+} 
+.first {
+    text-align: center;
+    color: white;
+}
+.content { /* kelas kontent */
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+}
+.btn-back {
+    float: left;
+    font-size: 20px;
+}
+img{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+footer { /* bagian bawa atau hak cipta */
+    background-color: skyblue;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+}
+footer p {
+    font-size: 20px;
+}
+.last {
+    display: flex;
+    justify-content: center
+}
+div p {
+    height: 10px;
+}
+/*
+bagian tombol page prev,1,2,& next
+*/
+ul {
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+ul li {
+    list-style: none;
+    line-height: 50px;
+    margin: 0 5px;
+}
+ul li.pageNumber {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-weight: 600;
+    border-radius: 50%;
+}
+ul li.pageNumber:hover a,
+ul li.pageNumber.active 
+{
+    background-color: black;
+    color: white;
+}
+ul li:first-child {
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+ul li:last-child {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+video {
+    margin-top: 10px;
+}
+
+

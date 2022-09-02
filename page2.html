@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- format 8 bit -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="Portofolio/File/style2.css"> <!-- Untuk Menjalankan file CSS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <!-- Untuk Mejalankan Link jQuery -->
+    <link rel="icon" type="icon/img" href="web.png"> <!-- Icon Di atas Web -->
+</head>
+<body>
+    <header> <!-- Bagian Berada Diatas  -->
+        <input type="button" class="btn-back" value="&#11013;" onclick="back(-1)"> <!-- mengklilk tombol ini kembali halaman sebelumnya -->
+        <nav class="first">
+            <h1>Portofolio</h1> 
+            <p>Portofolio by: Masdarul Rizqi</p>
+        </nav>
+    </header>
+    <div class="content"> <!-- bagian konten 4 -->
+        <h3>4.Web Pribadi</h3>
+        <p><img src="Portofolio/img/pribadi.png" usemap="#pribadi"> Web pribadi adalah sebuah situs dengan status kepemilikan individu atau perorangan. Meski demikian, sebuah web pribadi tidak jarang dikelola oleh tim khusus. Dimana web pribadi bisa diisi dengan bermacam info yang berkaitan dengan pemilik.</p>
+        <video height="250" width="320" autoplay muted> <!-- input video dan autoplay --> 
+            <source src="Portofolio/video/Web.mp4">
+        </video>
+        <map name="pribadi"> <!-- Klik Gambar Bisa Ke Halaman ditujuan -->
+            <area shape="rect" coords="34,44,270,350" title="Web Pribadi" href="home.html"> 
+        </map>
+    </div>
+    <div class="last">
+        <ul class="pagination"> <!-- page sebelumnya,page tujuan,sampai Page Selanjutnya -->
+            <li><a href="page1.html" class="prev">Prev</a></li>
+            <li class="pageNumber"><a href="page1.html">1</a></li>
+            <li class="pageNumber active"><a href="page2.html">2</a></li>
+            <li><a href="page2.html" class="next">Next</a></li>
+        </ul>
+    </div>
+    <footer><p>Copyright &copy; By Masdarul Rizqi</p></footer>
+    <script src="Portofolio/File/script2.js"></script>  <!-- memasukan File JavaScript -->
+    <script src="Portofolio/File/jquerj2.js"></script> <!-- memasukan file jQuerj -->
+</body>
+</html>
