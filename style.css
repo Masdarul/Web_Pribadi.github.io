@@ -6,10 +6,12 @@ body {
     background-color: #eff1f2;
     font-family: Arial, sans-serif;
 } 
+div.hero img {
+    border: 2px solid;
+}
 img {
     width: 200px;
     padding: 2px;
-    border: 2px solid;
 } /* Gambar atau Foto */
 .konten {
     grid-area: content;
@@ -58,8 +60,6 @@ nav ul li a:hover {
     opacity: 1;
 } /* jika Mengklik / sesudah */
 .hero {
-    max-width: 90px;
-    margin: 0 auto;
     text-align: center;
 }
 .hero h1 {
