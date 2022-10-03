@@ -9,8 +9,9 @@ body {
 img {
     width: 200px;
     padding: 2px;
+    border: 2px solid;
 } /* Gambar atau Foto */
-.content {
+.konten {
     grid-area: content;
 } /* Kelas untuk Konten(content) */
 .sidebar {
@@ -32,7 +33,7 @@ img {
     grid-template-columns: 1fr;
     grid-template-rows: 130px 800px 250px;
 }
-.content, .sidebar, .footer {
+.konten, .sidebar, .footer {
     padding: 1em;
 } /* untuk 3 kelas sekaligu (konten,sidebar, dan footer) */
 nav ul {
