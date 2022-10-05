@@ -100,12 +100,14 @@ footer ul li a {
 }
 footer ul li img {
     width: 50%;
+    padding: 2px;
+    margin: 2px;
 }
 @media (min-width: 1040px){
     .container {
         grid-template-areas: "sidebar content" "sidebar footer";
         grid-template-rows: 1fr auto;
-        grid-template-columns: 300px 1f;
+        grid-template-columns: 300px 1fr;
     } /* Untuk Resolusi Layar (misalkan, Ukuran layar Desktop dan Layar Seluler) */
     nav ul {
         display: flex;
