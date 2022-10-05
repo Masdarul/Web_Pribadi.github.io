@@ -33,3 +33,39 @@
             width: 20%;
         }
     }
+/* Samsung Galaxy S20 */
+@media only  screen and (max-width: 360px), 
+    screen and (max-height: 800px) {
+        .container {
+            grid-template-areas: "sidebar content" "sidebar footer";
+            grid-template-rows: 1fr auto;
+            grid-template-columns: 107px 1f;
+        } /* Untuk Resolusi Layar (misalkan, Ukuran layar Desktop dan Layar Seluler) */
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .sidebar {
+            background-color: blue;
+            padding-top: 4em;
+        } /* didalam Resolusi Layar (Sidebar) */
+        .hero {
+            text-align: left;
+            margin: 2.5em 0;
+        }
+        .hero h1 {
+            font-size: 1em;
+        }
+        .hero p{
+            width: 60%;
+        }
+        footer ul {
+            max-width: 321px;
+            margin: 0 auto;
+            padding: 1em 0;
+        }
+        footer ul li a img {
+            width: 20%;
+        }
+    }   
