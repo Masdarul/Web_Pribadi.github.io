@@ -98,6 +98,7 @@ footer ul {
 .open-close {
     display: none;
     background-color: #567bfb;
+    border-radius: 4px;
 }
 div.open-close ul li a {
     text-decoration: none;
