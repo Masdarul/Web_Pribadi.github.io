@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#klik").click(function(){
-        $("#buka").slideToggle("slow");
+    $(".klik").click(function(){
+        $(".open-close").slideToggle("slow");
     });
 });
