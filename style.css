@@ -83,11 +83,10 @@ footer ul {
     flex-direction: row;
 }
 .tombol {
-    margin-left: 20px;
-    margin-right: 20px;
+    text-align: left;
 }
 .dalam {
-    text-align: right;
+    text-align: center;
 }
 .klik {
     background-color: #567bfb;
@@ -103,7 +102,6 @@ footer ul {
 .open-close {
     display: none;
     background-color: #567bfb;
-    text-align: right;
 }
 footer ul li {
     list-style: none;
