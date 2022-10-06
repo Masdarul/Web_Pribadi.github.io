@@ -83,8 +83,8 @@ footer ul {
     flex-direction: row;
 }
 .tombol {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .dalam {
     text-align: right;
@@ -103,7 +103,7 @@ footer ul {
 .open-close {
     display: none;
     background-color: #567bfb;
-    text-align: center;
+    text-align: right;
 }
 footer ul li {
     list-style: none;
