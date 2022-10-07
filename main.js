@@ -3,3 +3,8 @@ $(document).ready(function(){
         $(".open-close").slideToggle("slow");
     });
 });
+$(document).ready(function(){
+    $(".klik_nav").click(function(){
+        $(".buka_tutup").slideToggle("slow");
+    });
+});

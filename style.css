@@ -78,11 +78,26 @@ footer ul {
     display: flex;
     flex-direction: row;
 }
+.klik_nav {
+    color: white;
+    font-weight: 700;
+    opacity: 0.5;
+    text-decoration: none;
+    transform: 0.3s;
+}
+.buka_tutup {
+    font-size: 11px;
+    display: none;
+}
+.klik_nav:hover {
+    opacity: 1;
+}
 .tombol {
     text-align: left;
 }
 .dalam {
     text-align: center;
+
 }
 .klik {
     background-color: #567bfb;
@@ -98,12 +113,6 @@ footer ul {
 .open-close {
     display: none;
     background-color: #567bfb;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
-    margin-left: 10px;
 }
 div.open-close ul li a {
     text-decoration: none;
