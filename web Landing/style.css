@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "ヒラギノ角ゴ ProN W3", "HiraKakuProN-W3", "ヒラギノ角ゴ Pro W3", "HiraKakuPro-W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS Pgothic", "Osaka", sans-serif, Helvetica, Helvetica Neue, Arial, Verdana;
+    background-image: url(https://th.bing.com/th/id/OIP.pnJ6brlkCoFX_-NcrSITtwHaEK?pid=ImgDet&rs=1);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+
+}
+
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: rgba(252, 201, 185, 0.8);
+    height: 400px;
+    clip-path: polygon(0, 0, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main .container {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.awal img {
+    width: 250px;
+}
+
+h1 {
+    color: red;
+    letter-spacing: -1px;
+    font-size: 40px;
+    margin-bottom: -14px;
+}
+
+h3 {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+.Konten {
+    display: flex;
+    margin-top: 10px;
+}
+
+.Konten1 h2 {
+    color: blue;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 8px;
+}
+
+.Konten1 h4 {
+    color: rgba(0, 0, 255, 0.75);
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.tiket {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 22px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.tokyo h1,
+.saitamaH {
+    color: blue;
+    font-size: 30px;
+    margin-top: -2px;
+}
+
+.tiket h2 {
+    color: rgba(0, 0, 255, 0.75);
+    font-size: 17px;
+}
+
+.tokyo img,
+.saitama,
+.kyoto,
+.osaka {
+    margin-top: 20px;
+    width: 250px;
+}
+
+.tiket .Pesan {
+    background-color: hotpink;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 10%;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.sosmed {
+    background-color: #fcc9bf;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.logo .Logo {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+
+.sosmed p {
+    font-style: 15px;
+    text-align: center;
+}
+
+.hak_Cipta {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer .sosmed img {
+    width: 80px;
+    margin-top: 2px;
+}
+
+footer .sosmed img.tw {
+    width: 78px;
+    margin-top: 2px;
+}
+
+footer .sosmed img.yt {
+    width: 75px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.sebelah {
+    float: right;
+    margin-right: 20px;
+}
