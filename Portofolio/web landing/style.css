@@ -12,7 +12,6 @@ nav li {
     display: inline;
     list-style-type: none;
     margin-right: 20px;
-
 }
 
 nav {
@@ -26,6 +25,10 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
+    color: white;
+}
+
+.Click {
     color: white;
 }
 
@@ -170,5 +173,11 @@ footer .sosmed img.yt {
 
 .sebelah {
     float: right;
+    margin-right: 20px;
+}
+
+.Open li {
+    display: block;
+    list-style-type: none;
     margin-right: 20px;
 }
