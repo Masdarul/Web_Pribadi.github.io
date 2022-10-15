@@ -113,13 +113,6 @@ footer ul {
 .open-close {
     display: none;
     background-color: #567bfb;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-top: 50px;
 }
 div.open-close ul li a {
     text-decoration: none;
