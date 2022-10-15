@@ -28,9 +28,6 @@ nav a {
     color: white;
 }
 
-.Click {
-    color: white;
-}
 
 header {
     background-color: rgba(252, 201, 185, 0.8);
@@ -177,7 +174,15 @@ footer .sosmed img.yt {
 }
 
 .Open li {
-    display: block;
+    display:list-item;
     list-style-type: none;
     margin-right: 20px;
+}
+
+.Click {
+    color: white;
+    font-weight: 700;
+    opacity: 0.5;
+    text-decoration: none;
+    transform: 0.3s;
 }
