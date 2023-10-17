@@ -93,35 +93,40 @@ footer ul {
     opacity: 1;
 }
 .tombol {
-    text-align: left;
+    text-align: center;
+    margin-top: 50px;
 }
+
 .dalam {
     text-align: center;
-
 }
+
 .klik {
     background-color: #567bfb;
     color: #eff1f2;
     padding: 10px 15px;
     border: none;
-    border-radius: 4px;
+    border-radius: 0;
     cursor: pointer;
     text-decoration: none;
-    margin-left: 10px;
-    margin-top: 50px;
 }
+
 .open-close {
     display: none;
     background-color: #567bfb;
+    text-align: center;
+    padding: 10px;
 }
+
 div.open-close ul li a {
     text-decoration: none;
     color: white;
 }
+
 div.open-close ul li {
     list-style: none;
-    align-self: flex-end;
 }
+
 div.open-close ul {
     text-align: center;
 }
@@ -137,38 +142,4 @@ footer ul li img {
     width: 50%;
     padding: 2px;
     margin: 2px;
-}
-@media (min-width: 1040px){
-    .container {
-        grid-template-areas: "sidebar content" "sidebar footer";
-        grid-template-rows: 1fr auto;
-        grid-template-columns: 300px 1fr;
-    } /* Untuk Resolusi Layar (misalkan, Ukuran layar Desktop dan Layar Seluler) */
-    nav ul {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-    }
-    .sidebar {
-        background-color: blue;
-        padding-top: 10em;
-    } /* didalam Resolusi Layar (Sidebar) */
-    .hero {
-        text-align: left;
-        margin: 7em 0;
-    }
-    .hero h1 {
-        font-size: 3em;
-    }
-    .hero p{
-        width: 60%;
-    }
-    footer ul {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 1em 0;
-    }
-    footer ul li a img {
-        width: 20%;
-    }
 }
